@@ -3,9 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
   <meta name="description" content="Own fully managed farmland, sandalwood, fruit trees and livestock in Yelandur, Karnataka.">
   <title>Krushi Bhoomi Farms — Managed Farmland in Yelandur</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23121512'/%3E%3Cpath d='M15 43c9-22 23-27 36-27-2 16-11 31-31 31' fill='none' stroke='%23d6ff5f' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M19 47c7-11 16-18 28-25' stroke='%23d6ff5f' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
 </head>
@@ -18,8 +22,10 @@
       <p class="topline">Managed farmland / Yelandur, Karnataka</p>
       <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span>↗</span></button>
       <nav id="main-nav" aria-label="Main navigation">
-        <a href="#about">About</a><a href="#farmland">Farmland</a><a href="#why">Why us</a><a href="#faq">FAQ</a>
-        <a class="nav-cta" href="#visit">Book a visit <span>↗</span></a>
+        <a class="nav-current" href="/" aria-current="page">Home</a>
+        <a href="about">About Us</a>
+        <a href="farmland">Farmland</a>
+        <a class="nav-cta" href="contact">Book a visit <span>↗</span></a>
       </nav>
     </header>
 
@@ -36,9 +42,9 @@
           <div class="micro-row"><span>Clear land title</span><span>End-to-end management</span><span>Owner stays included</span></div>
         </div>
         <figure class="hero-visual">
-          <img src="assets/hero-farm.webp" alt="Entrance to Krushi Bhoomi Farms in Yelandur">
+          <img src="assets/hero-family.png" alt="Family enjoying a visit to Krushi Bhoomi Farms">
           <figcaption><span>01 / Gandhada Gudi</span><span>11.9480° N, 77.0305° E</span></figcaption>
-          <div class="image-note">Where nature<br>meets opportunity.</div>
+          <div class="image-note">Where families<br>grow together.</div>
         </figure>
       </section>
 
@@ -51,13 +57,23 @@
 
       <section class="statement" id="about">
         <div class="section-label"><span>02</span> The proposition</div>
-        <div class="statement-main">
-          <p class="eyebrow">A considered agricultural investment</p>
-          <h2>Not just a plot.<br>A living, <em>managed ecosystem.</em></h2>
-        </div>
-        <div class="statement-side">
-          <p>Krushi Bhoomi brings sandalwood plantations, seasonal fruit, indigenous livestock and responsible land management together on one farm.</p>
-          <a class="text-link" href="#farmland">See how the model works <span>↗</span></a>
+        <div class="statement-explorer">
+          <div class="explorer-controls">
+            <p class="explorer-location"><span>⌖</span> Yelandur, Karnataka</p>
+            <div class="chip-list" role="tablist" aria-label="Farm highlights">
+              <button class="farm-chip active" role="tab" aria-selected="true" aria-controls="farm-panel" data-farm-tab="location">Location &amp; Soil</button>
+              <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="sandalwood">Sandalwood</button>
+              <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="organic">Organic Crops</button>
+              <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="orchards">Fruit Orchards</button>
+              <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="livestock">Cattle &amp; Sheep</button>
+            </div>
+          </div>
+          <div class="explorer-panel" id="farm-panel" role="tabpanel" tabindex="0">
+            <p class="eyebrow" id="farm-kicker">The land beneath the legacy</p>
+            <h2 id="farm-title">Prime Location in Yelandur With Fertile Red Soil &amp; Abundant Groundwater.</h2>
+            <p id="farm-description">Located in Yeragamballi Village, Yelandur Taluk, at the foothills of BR Hills in the Kaveri basin belt, Krushi Bhoomi Farms offers exceptional location advantages across 120 acres. The nutrient-dense, well-aerated red loam soil and rich groundwater table create ideal natural conditions for sandalwood heartwood development, organic fruit orchards, and diverse chemical-free crops.</p>
+            <div class="panel-notes"><span id="farm-note-left">Fertile Red Soil.</span><span id="farm-note-right">Kaveri Basin Advantage</span></div>
+          </div>
         </div>
       </section>
 
@@ -68,32 +84,70 @@
         </div>
         <div class="feature-track">
           <article class="feature-card">
-            <img src="assets/managed-plots.webp" alt="Managed farm plots at Krushi Bhoomi Farms">
-            <div class="card-copy"><span>01 / Foundation</span><h3>Managed farm plots</h3><p>Registered land, plantation setup, irrigation, upkeep and security — handled by an experienced on-ground team.</p></div>
-          </article>
-          <article class="feature-card">
             <img src="assets/sandalwood.webp" alt="Sandalwood plantation at Krushi Bhoomi Farms">
-            <div class="card-copy"><span>02 / Long term</span><h3>Sandalwood</h3><p>High-value trees nurtured in fertile red loam soil, with a 10–15 year path to harvest maturity.</p></div>
+            <div class="card-copy"><span>01 / Long term</span><h3>Sandalwood Plantation</h3><p>High-value, long-term returns from one of India's most prized crops.</p></div>
           </article>
           <article class="feature-card">
             <img src="assets/orchards.webp" alt="Fruit orchards at Krushi Bhoomi Farms">
-            <div class="card-copy"><span>03 / Annual</span><h3>Fruit orchards</h3><p>Seasonal fruit plantations offer recurring harvests while adding diversity to the farm ecosystem.</p></div>
+            <div class="card-copy"><span>02 / Seasonal</span><h3>Seasonal Fruit Plantations</h3><p>Sustainable, fast-growing and profitable yields from seasonal fruits.</p></div>
           </article>
           <article class="feature-card">
             <img src="assets/livestock.webp" alt="Livestock at Krushi Bhoomi Farms">
-            <div class="card-copy"><span>04 / Daily</span><h3>Livestock</h3><p>Indigenous cattle and managed animal husbandry create daily utility and complement natural farming.</p></div>
+            <div class="card-copy"><span>03 / Diversified</span><h3>Animal Husbandry</h3><p>A holistic approach to farming that includes livestock management for diversified income.</p></div>
+          </article>
+          <article class="feature-card">
+            <img src="assets/integrated-farming.webp" alt="Integrated farming at Krushi Bhoomi Farms">
+            <div class="card-copy"><span>04 / Ecosystem</span><h3>Innovative Integrated Farming</h3><p>Sandalwood plantations, fruit-bearing trees, indigenous cattle and poultry combine into one self-sustaining ecosystem.</p></div>
+          </article>
+          <article class="feature-card">
+            <img src="assets/daily-income.webp" alt="Farm produce and dairy creating consistent daily income">
+            <div class="card-copy"><span>05 / Daily</span><h3>Consistent Daily Income</h3><p>Milk from your own cows and regular fruit harvests provide a steady daily return alongside long-term tree value.</p></div>
+          </article>
+          <article class="feature-card">
+            <img src="assets/expert-management.webp" alt="Krushi Bhoomi team advising plot owners">
+            <div class="card-copy"><span>06 / Managed</span><h3>Expert Management &amp; Transparency</h3><p>Our team handles plantation, maintenance and livestock care — backed by clear land titles and full documentation.</p></div>
+          </article>
+          <article class="feature-card">
+            <img src="assets/sustainable-practices.webp" alt="Sustainable organic farming practices">
+            <div class="card-copy"><span>07 / Responsible</span><h3>Sustainable &amp; Eco-Friendly Practices</h3><p>Eco-friendly farming techniques protect soil health and biodiversity for a greener future.</p></div>
+          </article>
+          <article class="feature-card">
+            <img src="assets/family-legacy.webp" alt="A family enjoying their growing farm legacy">
+            <div class="card-copy"><span>08 / Generational</span><h3>A Legacy That Grows With You</h3><p>As the trees mature and the ecosystem thrives, your investment's value grows — a legacy you can pass down through generations.</p></div>
+          </article>
+          <article class="feature-card">
+            <img src="assets/lifestyle-retreat.webp" alt="A peaceful lifestyle retreat at Krushi Bhoomi Farms">
+            <div class="card-copy"><span>09 / Lifestyle</span><h3>Emotional Connection &amp; Lifestyle</h3><p>Reconnect with nature at your own farm — a peaceful retreat away from the urban hustle, whenever you like.</p></div>
           </article>
         </div>
       </section>
 
-      <section class="why" id="why">
-        <div class="section-label"><span>04</span> Why Krushi Bhoomi</div>
-        <div class="why-intro"><p class="eyebrow">Built for ownership without the operational burden</p><h2>Every detail,<br>considered.</h2></div>
-        <div class="principles">
-          <article><span>01</span><h3>Ownership</h3><p>Registered sale deed and clear land title in your name from day one.</p></article>
-          <article><span>02</span><h3>Stewardship</h3><p>Plantation, irrigation, livestock care and maintenance managed for you.</p></article>
-          <article><span>03</span><h3>Visibility</h3><p>Regular photo and video updates keep you connected to your land.</p></article>
-          <article><span>04</span><h3>Security</h3><p>Electrical fencing, CCTV and dedicated personnel protect the farm 24/7.</p></article>
+      <section class="why why-showcase" id="why">
+        <div class="why-showcase-head">
+          <div class="section-label"><span>04</span> Why Krushi Bhoomi</div>
+          <div><p class="eyebrow">Ownership without the operational burden</p><h2>Every detail,<br>considered.</h2></div>
+        </div>
+        <div class="why-card-grid">
+          <article class="why-card">
+            <img src="assets/why-managed-plots.webp" alt="Managed farm plots at Krushi Bhoomi">
+            <div class="card-copy"><span>01 / Foundation</span><h3>Managed Farm Plots</h3><p>Registered land, plantation setup, irrigation, upkeep and security — handled by an experienced on-ground team.</p></div>
+          </article>
+          <article class="why-card">
+            <img src="assets/why-sandalwood.webp" alt="Sandalwood plantation at Krushi Bhoomi">
+            <div class="card-copy"><span>02 / Long term</span><h3>Sandalwood Plantation</h3><p>High-value trees nurtured in fertile red loam soil, with a clear 10–15 year path to harvest maturity.</p></div>
+          </article>
+          <article class="why-card">
+            <img src="assets/why-orchards.webp" alt="Fruit-bearing orchards at Krushi Bhoomi">
+            <div class="card-copy"><span>03 / Seasonal</span><h3>Fruit-Bearing Orchards</h3><p>Seasonal fruit plantations create recurring harvest potential and greater diversity across the farm.</p></div>
+          </article>
+          <article class="why-card">
+            <img src="assets/why-livestock.webp" alt="Cattle and sheep rearing at Krushi Bhoomi">
+            <div class="card-copy"><span>04 / Daily value</span><h3>Cattle &amp; Sheep Rearing</h3><p>Indigenous livestock supports a living farm ecosystem and adds a regular source of farm-based value.</p></div>
+          </article>
+          <article class="why-card">
+            <img src="assets/why-security.webp" alt="Security and surveillance across Krushi Bhoomi Farms">
+            <div class="card-copy"><span>05 / Protected</span><h3>Security &amp; Surveillance</h3><p>Electrical fencing, CCTV and dedicated personnel protect the farm and keep your land monitored around the clock.</p></div>
+          </article>
         </div>
       </section>
 
@@ -116,9 +170,29 @@
 
     <footer>
       <div class="footer-brand"><img src="assets/logo.png" alt="Krushi Bhoomi Farms"><p>Blossoming investments.<br>Blooming fields.</p></div>
-      <div class="footer-links"><a href="#about">About</a><a href="#farmland">Farmland</a><a href="#faq">FAQ</a><a href="#visit">Contact</a></div>
-      <div class="footer-meta"><span>© 2026 Krushi Bhoomi Farms</span><span>Yelandur / Karnataka / India</span></div>
+      <div class="footer-links"><a href="/">Home</a><a href="about">About Us</a><a href="#farmland">Farmland</a><a href="#faq">FAQ</a><a href="#visit">Contact</a></div>
+      <div class="footer-meta">
+        <span>© 2026 Krushi Bhoomi Farms · Developed by <a href="https://iugale.com/" target="_blank" rel="noopener">Iugale Services Pvt Ltd</a></span>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com/krushibhoomifarms/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.2-1.5 1.5-1.5h1.7V4.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4.1 1.5-4.1 4.2v2.3H8v3.1h2.8v8h2.7Z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.instagram.com/krushibhoomifarms" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </a>
+        </div>
+      </div>
     </footer>
   </div>
+  <aside class="floating-contact" aria-label="Quick contact">
+    <a class="floating-action floating-whatsapp" href="https://wa.me/919945198777?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Krushi%20Bhoomi%20Farms." target="_blank" rel="noopener" aria-label="Chat with Krushi Bhoomi Farms on WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.5 0 .2 5.3.2 11.9c0 2.1.6 4.2 1.6 6L.1 24l6.3-1.6a12 12 0 0 0 5.7 1.4c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.4Zm-8.4 18.3c-1.8 0-3.6-.5-5.2-1.4l-.4-.2-3.7 1 1-3.6-.2-.4A9.8 9.8 0 1 1 12 21.8Zm5.4-7.3c-.3-.2-1.8-.9-2.1-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-1.7-.9-2.9-1.6-4-3.6-.3-.5.3-.5.9-1.6.1-.2.1-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.3 1.4 3.5c.2.2 2.4 3.7 5.9 5.2 2.2 1 3.1 1 4.2.8.7-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.2-.3-.3-.6-.4Z"/></svg>
+    </a>
+    <a class="floating-action floating-phone" href="tel:+919945198777" aria-label="Call Krushi Bhoomi Farms">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1.1-.2a11.5 11.5 0 0 0 3.6.6c.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.7 21 3 13.3 3 3.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1.1l-2.3 2.2Z"/></svg>
+    </a>
+  </aside>
 </body>
 </html>
