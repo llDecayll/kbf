@@ -3,7 +3,7 @@ import socketserver
 import os
 import sys
 
-DIRECTORY = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dist")
+DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 class CleanURLHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
