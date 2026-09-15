@@ -23,33 +23,33 @@ if (menuButton && nav) {
 const farmContent = {
   location: {
     kicker: 'The land beneath the legacy',
-    title: 'Prime Location in Yelandur With Fertile Red Soil & Abundant Groundwater.',
-    description: 'Located in Yeragamballi Village, Yelandur Taluk, at the foothills of BR Hills in the Kaveri basin belt, Krushi Bhoomi Farms offers exceptional location advantages across 120 acres. The nutrient-dense, well-aerated red loam soil and rich groundwater table create ideal natural conditions for sandalwood heartwood development, organic fruit orchards, and diverse chemical-free crops.',
-    left: 'Fertile Red Soil.', right: 'Kaveri Basin Advantage'
+    title: 'Rooted in Yelandur. Designed Around the Land.',
+    description: 'Located in Yeragamballi Village, Yelandur Taluk, near the foothills of BR Hills, Krushi Bhoomi Farms spans approximately 120 acres of managed farmland. The farming model has been planned around the region’s red loam soil, local growing conditions and an integrated mix of sandalwood, fruit orchards and farm activities.',
+    left: 'Fertile Red Loam.', right: 'BR Hills Foothills'
   },
   sandalwood: {
-    kicker: 'Harvesting legacy',
-    title: 'Where Nature Meets Opportunity — Own Land, Trees, And A Living Legacy.',
-    description: 'Krushi Bhoomi Farms is a one-of-a-kind managed farmland project spread across 120 acres of lush greenery in Yelandur, Karnataka. Each 6,500 sq. ft. plot is thoughtfully designed with 40 to 50 sandalwood and fruit-bearing trees for long-term, high-value returns. Every plot owner can also keep a cow and sheep on the farm — generating regular income and a deeper connection with nature. We’re not just selling land, we’re helping you create a legacy.',
-    left: 'Harvesting Legacy.', right: 'Planting Tomorrow'
+    kicker: 'A long-term plantation asset',
+    title: 'Sandalwood — A Long-Term Plantation Asset Nurtured for Growth.',
+    description: 'Sandalwood forms the long-term plantation component of Krushi Bhoomi, professionally nurtured as part of the farm’s multi-year growth journey. Each managed plot integrates sandalwood and fruit trees under expert on-ground care, planned around the region’s suitable red loam soil and local growing conditions.',
+    left: 'Multi-Year Journey.', right: 'Expert Plantation Care'
   },
   organic: {
     kicker: 'Cultivated without compromise',
     title: '100% Chemical-Free Organic Crops & Companion Farming for Healthy Soil.',
-    description: 'We practice sustainable organic farming with intercrops such as pulses, turmeric, millets, and vegetables. Nourished by in-house Jeevamrutha and vermicompost derived from our livestock, our organic methods build rich soil microbiology, protect biodiversity, and generate continuous intermediate returns alongside perennial trees.',
-    left: '100% Organic.', right: 'Zero Chemicals'
+    description: 'We practice responsible organic farming with companion crops such as pulses, turmeric, millets, and vegetables. Nourished by in-house Jeevamrutha and vermicompost derived from livestock, our practices build rich soil microbiology, protect biodiversity, and support the long-term health of the land.',
+    left: '100% Organic.', right: 'Soil Vitality'
   },
   orchards: {
-    kicker: 'Seasonal abundance',
-    title: 'Fruit Orchards That Add Beauty, Yield, And Steady Seasonal Income.',
-    description: 'Every plot is enriched with fruit-bearing trees—including mango, guava, chikoo, pomegranate, lemon, and amla—chosen to complement the sandalwood plantation and create a balanced ecosystem. These orchards add recurring harvest potential, diversify the land use, and make every visit to your farm feel vibrant, productive, and alive.',
+    kicker: 'Seasonal harvest potential',
+    title: 'Fruit Orchards — Productive Value Through the Seasons.',
+    description: 'Carefully planned fruit plantations bring diversity to the farm, creating seasonal harvest potential while supporting a vibrant and productive farm ecosystem. Varieties including mango, guava, chikoo, pomegranate, lemon, and amla complement the perennial trees and add recurring agricultural activity.',
     left: 'Seasonal Harvests.', right: 'Living Orchard'
   },
   livestock: {
-    kicker: 'Nature in motion',
-    title: 'Cattle & Sheep Turn Your Farm Into A Living, Income-Generating Ecosystem.',
-    description: 'Plot owners can keep a cow and sheep on the farm, creating an added layer of value beyond the trees themselves. Livestock supports regular milk-based income, natural farm activity, and a stronger emotional connection to the land while our team manages the day-to-day care.',
-    left: 'Daily Value.', right: 'Nature In Motion'
+    kicker: 'Bringing the farm ecosystem to life',
+    title: 'Livestock — Bringing the Farm Ecosystem to Life.',
+    description: 'Indigenous livestock forms part of the integrated farming model, supporting a more active, diversified and naturally connected farm environment. Cattle and sheep contribute natural manure for soil enrichment while our on-ground team manages day-to-day care and supervision.',
+    left: 'Integrated Ecosystem.', right: 'Living Farm'
   }
 };
 
