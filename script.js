@@ -34,22 +34,22 @@ const farmContent = {
     left: 'Multi-Year Journey.', right: 'Phase 1 @ 22 Acres'
   },
   organic: {
-    kicker: 'Cultivated without compromise',
-    title: '100% Chemical-Free Organic Crops & Companion Farming for Healthy Soil.',
-    description: 'We practice responsible organic farming with companion crops such as pulses, turmeric, millets, and vegetables. Nourished by in-house Jeevamrutha and vermicompost derived from livestock, our practices build rich soil microbiology, protect biodiversity, and support the long-term health of the land.',
-    left: '100% Organic.', right: 'Soil Vitality'
+    kicker: 'Demand-aligned seasonal farming',
+    title: 'Seasonal Crops, Flowers & Companion Farming Guided by Market Demand.',
+    description: 'We practice responsible farming with seasonal companion crops, commercial flower cultivation, pulses, turmeric, millets, and vegetables — dynamically planned as per seasonal requirements and prevailing market demand. Nourished with in-house Jeevamrutha and vermicompost from our livestock, these integrated projects enrich soil microbiology, enhance biodiversity, and optimize land productivity alongside perennial trees.',
+    left: 'Crops & Flowers.', right: 'Market-Demand Driven'
   },
   orchards: {
     kicker: 'Seasonal harvest potential',
-    title: 'Fruit Orchards — Productive Value Through the Seasons.',
-    description: 'Carefully planned fruit plantations bring diversity to the farm, creating seasonal harvest potential while supporting a vibrant and productive farm ecosystem. Varieties including mango, guava, chikoo, pomegranate, lemon, and amla complement the perennial trees and add recurring agricultural activity.',
-    left: 'Seasonal Harvests.', right: 'Living Orchard'
+    title: 'Seasonal Fruits & Orchards — High Market Demand & Natural Yield.',
+    description: 'Carefully planned seasonal fruit plantations bring recurring value and agricultural diversity to the farm. High-demand varieties—including mango, guava, chikoo, pomegranate, lemon, and amla—are selected and managed as per regional agro-climatic suitability and seasonal market demand, creating consistent harvest potential and a productive farm ecosystem.',
+    left: 'Seasonal Fruits.', right: 'Market-Aligned Projects'
   },
   livestock: {
-    kicker: 'Bringing the farm ecosystem to life',
-    title: 'Livestock — Bringing the Farm Ecosystem to Life.',
-    description: 'Indigenous livestock forms part of the integrated farming model, supporting a more active, diversified and naturally connected farm environment. Cattle and sheep contribute natural manure for soil enrichment while our on-ground team manages day-to-day care and supervision.',
-    left: 'Integrated Ecosystem.', right: 'Living Farm'
+    kicker: 'Integrated farm ecosystem',
+    title: 'Livestock & Integrated Projects — A Dynamic, Self-Sustaining Farm.',
+    description: 'Indigenous livestock and complementary farm projects form a multifaceted, integrated farming model adapted to market requirements and operational cycles. Cattle and sheep supply natural organic manure and Jeevamrutha for our seasonal fruits, flowers, and intercrops, ensuring an active, self-sustaining farm asset under full on-ground care.',
+    left: 'Integrated Ecosystem.', right: 'Demand-Based Projects'
   }
 };
 

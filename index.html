@@ -10,8 +10,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css?v=2.1">
-  <script src="script.js?v=2.1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=2.2">
+  <script src="script.js?v=2.2" defer></script>
 </head>
 <body>
   <div class="site-shell">
@@ -20,7 +20,17 @@
         <img src="assets/logo.png" alt="Krushi Bhoomi Farms">
       </a>
       <p class="topline">Managed farmland / Yelandur, Karnataka</p>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation"><svg class="icon-hamburger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg><svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation">
+        <svg class="icon-hamburger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
       <nav id="main-nav" aria-label="Main navigation">
         <a href="/" class="nav-current" aria-current="page">Home</a>
         <a href="about">About Us</a>
@@ -35,7 +45,7 @@
         <div class="hero-copy">
           <div class="eyebrow"><span class="signal"></span> Phase 1 @ 22 acres / Limited plots available</div>
           <h1 id="hero-title">Land you own.<br>A farm we manage.<br><em>A legacy that grows.</em></h1>
-          <p class="hero-lede">Own your piece of farmland in Yelandur, where professional farm management, sandalwood, fruit orchards and an integrated farming ecosystem come together — creating something meaningful for today and valuable for generations.</p>
+          <p class="hero-lede">Own your piece of farmland in Yelandur, where professional farm management, sandalwood, seasonal fruits, flowers and integrated farming projects come together — creating something meaningful for today and valuable for generations.</p>
           <div class="actions">
             <a class="button button-primary" href="#visit">Book Your Farm Visit <span>→</span></a>
             <a class="button button-secondary" href="#farmland">Explore Krushi Bhoomi <span>↘</span></a>
@@ -64,15 +74,15 @@
             <div class="chip-list" role="tablist" aria-label="Farm highlights">
               <button class="farm-chip active" role="tab" aria-selected="true" aria-controls="farm-panel" data-farm-tab="location">Location &amp; Soil</button>
               <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="sandalwood">Sandalwood</button>
-              <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="organic">Organic Crops</button>
-              <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="orchards">Fruit Orchards</button>
+              <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="organic">Crops &amp; Flowers</button>
+              <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="orchards">Seasonal Fruits</button>
               <button class="farm-chip" role="tab" aria-selected="false" aria-controls="farm-panel" data-farm-tab="livestock">Cattle &amp; Sheep</button>
             </div>
           </div>
           <div class="explorer-panel" id="farm-panel" role="tabpanel" tabindex="0">
             <p class="eyebrow" id="farm-kicker">The land beneath the legacy</p>
             <h2 id="farm-title">Rooted in Yelandur. Designed Around the Land.</h2>
-            <p id="farm-description">Located in Yeragamballi Village, Yelandur Taluk, near the foothills of BR Hills, Krushi Bhoomi Farms spans Phase 1 across 22 acres of managed farmland. The farming model has been planned around the region’s red loam soil, local growing conditions and an integrated mix of sandalwood, fruit orchards and farm activities.</p>
+            <p id="farm-description">Located in Yeragamballi Village, Yelandur Taluk, near the foothills of BR Hills, Krushi Bhoomi Farms spans Phase 1 across 22 acres of managed farmland. The farming model has been planned around the region’s red loam soil, local growing conditions and an integrated mix of sandalwood, seasonal fruits, flowers, and companion farming projects.</p>
             <div class="panel-notes"><span id="farm-note-left">Fertile Red Loam.</span><span id="farm-note-right">Phase 1 @ 22 Acres</span></div>
           </div>
         </div>
@@ -89,8 +99,8 @@
             <div class="card-copy"><span>01 / Long term</span><h3>Sandalwood — A Long-Term Plantation Asset</h3><p>Sandalwood forms the long-term plantation component of Krushi Bhoomi, professionally nurtured as part of the farm’s multi-year growth journey.</p></div>
           </article>
           <article class="feature-card">
-            <img src="assets/orchards.webp" alt="Fruit orchards at Krushi Bhoomi Farms">
-            <div class="card-copy"><span>02 / Seasonal</span><h3>Fruit Orchards — Productive Value Through the Seasons</h3><p>Carefully planned fruit plantations bring diversity to the farm, creating seasonal harvest potential while supporting a vibrant and productive farm ecosystem.</p></div>
+            <img src="assets/orchards.webp" alt="Seasonal fruit orchards at Krushi Bhoomi Farms">
+            <div class="card-copy"><span>02 / Seasonal</span><h3>Seasonal Fruits &amp; Orchards — Cultivated for Demand</h3><p>Carefully planned seasonal fruit plantations bring recurring value to the farm, with varieties selected based on regional suitability and prevailing market demand.</p></div>
           </article>
           <article class="feature-card">
             <img src="assets/livestock.webp" alt="Livestock at Krushi Bhoomi Farms">
@@ -98,11 +108,11 @@
           </article>
           <article class="feature-card">
             <img src="assets/integrated-farming.webp" alt="Integrated farming at Krushi Bhoomi Farms">
-            <div class="card-copy"><span>04 / Living ecosystem</span><h3>Integrated Farming — Different Elements. One Living Ecosystem.</h3><p>Sandalwood, fruit-bearing trees, livestock and responsible farming practices work together within one professionally managed environment — designed to create diversity, productivity and long-term continuity.</p></div>
+            <div class="card-copy"><span>04 / Living ecosystem</span><h3>Integrated Projects — Fruits, Flowers &amp; Market Demand</h3><p>Sandalwood, seasonal fruits, commercial flowers, companion crops, and livestock operate as cohesive integrated projects aligned with agricultural cycles and market requirements.</p></div>
           </article>
           <article class="feature-card">
             <img src="assets/daily-income.webp" alt="Farm produce and dairy creating recurring productive activity">
-            <div class="card-copy"><span>05 / Everyday value</span><h3>Everyday Value from a Living Farm</h3><p>Farm produce, livestock and seasonal harvests add recurring productive activity to the property, complementing the longer-term plantation journey.</p></div>
+            <div class="card-copy"><span>05 / Everyday value</span><h3>Everyday Value from Seasonal Harvests &amp; Integrated Projects</h3><p>Farm produce, seasonal fruits, flower yields, and ongoing farm activities planned as per market demand add recurring productive activity to your farmland.</p></div>
           </article>
           <article class="feature-card">
             <img src="assets/expert-management.webp" alt="Krushi Bhoomi team advising plot owners">
