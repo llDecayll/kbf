@@ -30,7 +30,7 @@ const farmContent = {
   sandalwood: {
     kicker: 'A long-term plantation asset',
     title: 'Sandalwood — A Long-Term Plantation Asset Nurtured for Growth.',
-    description: 'Sandalwood forms the long-term plantation component across 22 acres in Phase 1 of Krushi Bhoomi, professionally nurtured as part of the farm’s multi-year growth journey. Each managed plot integrates sandalwood and fruit trees under expert on-ground care, planned around the region’s suitable red loam soil and local growing conditions.',
+    description: 'Sandalwood forms the long-term plantation component across 22 acres in Phase 1 of Krushi Bhoomi, professionally nurtured as part of the farm’s multi-year growth journey. Each managed plot integrates sandalwood and 13 fruit-bearing trees like mango, guava, chikoo, custard apple and so on under expert on-ground care, planned around the region’s suitable red loam soil and local growing conditions.',
     left: 'Multi-Year Journey.', right: 'Phase 1 @ 22 Acres'
   },
   organic: {
@@ -41,9 +41,9 @@ const farmContent = {
   },
   orchards: {
     kicker: 'Seasonal harvest potential',
-    title: 'Seasonal Fruits & Orchards — High Market Demand & Natural Yield.',
-    description: 'Carefully planned seasonal fruit plantations bring recurring value and agricultural diversity to the farm. High-demand varieties—including mango, guava, chikoo, pomegranate, lemon, and amla—are selected and managed as per regional agro-climatic suitability and seasonal market demand, creating consistent harvest potential and a productive farm ecosystem.',
-    left: 'Seasonal Fruits.', right: 'Market-Aligned Projects'
+    title: '13 Fruit-Bearing Trees & Orchards — High Market Demand & Natural Yield.',
+    description: 'Each managed plot is enriched with 13 fruit-bearing trees like mango, guava, chikoo, custard apple and so on—carefully selected and planned as per regional agro-climatic suitability and seasonal market demand. These fruit orchards complement the sandalwood plantation with recurring harvest potential and keep your farmland productive, resilient, and vibrant year after year.',
+    left: '13 Fruit-Bearing Trees.', right: 'Market-Aligned Projects'
   },
   livestock: {
     kicker: 'Integrated farm ecosystem',
