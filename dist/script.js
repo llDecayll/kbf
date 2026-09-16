@@ -24,8 +24,8 @@ const farmContent = {
   location: {
     kicker: 'The land beneath the legacy',
     title: 'Rooted in Yelandur. Designed Around the Land.',
-    description: 'Located in Yeragamballi Village, Yelandur Taluk, near the foothills of BR Hills, Krushi Bhoomi Farms spans approximately 120 acres of managed farmland. The farming model has been planned around the region’s red loam soil, local growing conditions and an integrated mix of sandalwood, fruit orchards and farm activities.',
-    left: 'Fertile Red Loam.', right: 'BR Hills Foothills'
+    description: 'Located in Yeragamballi Village, Yelandur Taluk, near the foothills of BR Hills, Krushi Bhoomi Farms spans approximately 120 acres of managed farmland, with Phase 1 across 22 acres. The farming model has been planned around the region’s red loam soil, local growing conditions and an integrated mix of sandalwood, fruit orchards and farm activities.',
+    left: 'Fertile Red Loam.', right: 'Phase 1 @ 22 Acres'
   },
   sandalwood: {
     kicker: 'A long-term plantation asset',
