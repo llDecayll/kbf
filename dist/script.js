@@ -24,14 +24,14 @@ const farmContent = {
   location: {
     kicker: 'The land beneath the legacy',
     title: 'Rooted in Yelandur. Designed Around the Land.',
-    description: 'Located in Yeragamballi Village, Yelandur Taluk, near the foothills of BR Hills, Krushi Bhoomi Farms spans approximately 120 acres of managed farmland, with Phase 1 across 22 acres. The farming model has been planned around the region’s red loam soil, local growing conditions and an integrated mix of sandalwood, fruit orchards and farm activities.',
+    description: 'Located in Yeragamballi Village, Yelandur Taluk, near the foothills of BR Hills, Krushi Bhoomi Farms spans Phase 1 across 22 acres of managed farmland. The farming model has been planned around the region’s red loam soil, local growing conditions and an integrated mix of sandalwood, fruit orchards and farm activities.',
     left: 'Fertile Red Loam.', right: 'Phase 1 @ 22 Acres'
   },
   sandalwood: {
     kicker: 'A long-term plantation asset',
     title: 'Sandalwood — A Long-Term Plantation Asset Nurtured for Growth.',
-    description: 'Sandalwood forms the long-term plantation component of Krushi Bhoomi, professionally nurtured as part of the farm’s multi-year growth journey. Each managed plot integrates sandalwood and fruit trees under expert on-ground care, planned around the region’s suitable red loam soil and local growing conditions.',
-    left: 'Multi-Year Journey.', right: 'Expert Plantation Care'
+    description: 'Sandalwood forms the long-term plantation component across 22 acres in Phase 1 of Krushi Bhoomi, professionally nurtured as part of the farm’s multi-year growth journey. Each managed plot integrates sandalwood and fruit trees under expert on-ground care, planned around the region’s suitable red loam soil and local growing conditions.',
+    left: 'Multi-Year Journey.', right: 'Phase 1 @ 22 Acres'
   },
   organic: {
     kicker: 'Cultivated without compromise',
